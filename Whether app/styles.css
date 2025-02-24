@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    background: linear-gradient(pink,white);
+
+}
+
+.app_main{
+    text-align: center;
+}
+
+.weather_card{
+    background-color: #BF00FF ;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 , 0 ,30px rbga(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+    width: 450px;
+}
+
+.weather_card:hover{
+    transform: scale(1.05);
+
+}
+
+#city_name{
+    padding: 15px;
+    margin: 10px 0;
+    width: 70%;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#city_name:focus{
+    outline: none;
+    border-color: black;
+}
+
+#city_name::placeholder{
+    color: chocolate;
+}
+
+#app_button{
+    padding: 10px;
+    background-color: cornflowerblue;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#app_button:hover{
+    background-color: darkgoldenrod;
+
+}
+
+#weather_info{
+    display: none;
+
+}
+
+#app_logo{
+    height: 100px;
+    width: 100px;
+}
+
+#tem{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+#description{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+#windspeed{
+font-size: 18px;
+color: rgb(179, 174, 40);
+}
+
+#date{
+    font-size: 14px;
+    color: rgba(223, 174, 16, 0.888);
+}
+
+
+#logo_01{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
